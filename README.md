@@ -1,6 +1,6 @@
 # vMFNet-Journal the journal extension of vMFNet: Compositionality Meets Domain-generalised Segmentation
 
-This repository contains the official Pytorch implementation of the extension of [vMFNet: Compositionality Meets Domain-generalised Segmentation](https://arxiv.org/abs/2206.14538) accepted by [MICCAI 2022](https://conferences.miccai.org/2022/en/)).
+This repository contains the official Pytorch implementation of the extension of [vMFNet: Compositionality Meets Domain-generalised Segmentation](https://arxiv.org/abs/2206.14538) accepted by [MICCAI 2022](https://conferences.miccai.org/2022/en/)). The extended journal version is [Compositionally Equivariant Representation Learning](https://arxiv.org/abs/2306.07783).
 
 The repository is created by [Xiao Liu](https://github.com/xxxliu95), [Spyridon Thermos](https://github.com/spthermo), [Pedro Sanchez](https://vios.science/team/sanchez), [Alison O'Neil](https://vios.science/team/oneil), and [Sotirios A. Tsaftaris](https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris), as a result of the collaboration between [The University of Edinburgh](https://www.eng.ed.ac.uk/) and [Canon Medical Systems Europe](https://eu.medical.canon/). You are welcome to visit our group website: [vios.s](https://vios.science/)
 
@@ -65,8 +65,6 @@ python inference.py -bs 1 -c cp_vmfnet_2_tvA/ -enc xxx/cp_unet_100_tvA/UNet.pth 
 ```
 This will output the DICE and Hausdorff results as well as the standard deviation. Similarly, changing the ```resampling_rate=1.2``` (line 50) in ```mms_dataloader_dg_aug_test.py``` to 1.1 - 1.3 may give better results.
 
-# Examples of kernel activations:
-![kernels](figures/kernels.png)
 
 # Citation
 ```
@@ -76,6 +74,12 @@ This will output the DICE and Hausdorff results as well as the standard deviatio
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
   year={2022},
   organization={Springer}
+}
+@article{liu2023compositionally,
+  title={Compositionally Equivariant Representation Learning},
+  author={Liu, Xiao and Sanchez, Pedro and Thermos, Spyridon and O'Neil, Alison Q and Tsaftaris, Sotirios A},
+  journal={arXiv preprint arXiv:2306.07783},
+  year={2023}
 }
 ```
 

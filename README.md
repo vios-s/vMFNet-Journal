@@ -1,6 +1,6 @@
 # vMFNet-Journal the journal extension of vMFNet: Compositionality Meets Domain-generalised Segmentation
 
-This repository contains the official Pytorch implementation of the extension of [vMFNet: Compositionality Meets Domain-generalised Segmentation](https://arxiv.org/abs/2206.14538) accepted by [MICCAI 2022](https://conferences.miccai.org/2022/en/)). The extended journal version is [Compositionally Equivariant Representation Learning](https://arxiv.org/abs/2306.07783).
+This repository contains the official Pytorch implementation of the extension of [vMFNet: Compositionality Meets Domain-generalised Segmentation](https://arxiv.org/abs/2206.14538) accepted by [MICCAI 2022](https://conferences.miccai.org/2022/en/)). The extended journal version is [Compositionally Equivariant Representation Learning](https://arxiv.org/abs/2306.07783). The code of vMFNet can be found [here](https://github.com/vios-s/vMFNet).
 
 The repository is created by [Xiao Liu](https://github.com/xxxliu95), [Spyridon Thermos](https://github.com/spthermo), [Pedro Sanchez](https://vios.science/team/sanchez), [Alison O'Neil](https://vios.science/team/oneil), and [Sotirios A. Tsaftaris](https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris), as a result of the collaboration between [The University of Edinburgh](https://www.eng.ed.ac.uk/) and [Canon Medical Systems Europe](https://eu.medical.canon/). You are welcome to visit our group website: [vios.s](https://vios.science/)
 

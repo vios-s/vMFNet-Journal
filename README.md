@@ -1,4 +1,4 @@
-# vMFNet-Journal the journal extension of vMFNet: Compositionality Meets Domain-generalised Segmentation
+# vMFNet-Journal - the journal extension of vMFNet: Compositionality Meets Domain-generalised Segmentation
 
 This repository contains the official Pytorch implementation of the extension of [vMFNet: Compositionality Meets Domain-generalised Segmentation](https://arxiv.org/abs/2206.14538) accepted by [MICCAI 2022](https://conferences.miccai.org/2022/en/)). The extended journal version is [Compositionally Equivariant Representation Learning](https://arxiv.org/abs/2306.07783). The code of vMFNet can be found [here](https://github.com/vios-s/vMFNet).
 
